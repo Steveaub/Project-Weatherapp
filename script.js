@@ -45,13 +45,13 @@ function changeBackground(description) {
 
   // Make conditions more flexible
   if (description.includes('rain') || description.includes('drizzle') || description.includes('shower')) {
-    body.style.backgroundImage = "url('./rain.jpg')";
+    body.style.backgroundImage = "url('./images/rain.jpg')";
   } else if (description.includes('cloud') || description.includes('overcast') || description.includes('partly')) {
-    body.style.backgroundImage = "url('./cloud.jpg')";
+    body.style.backgroundImage = "url('./images/cloud.jpg')";
   } else if (description.includes('sun') || description.includes('clear') || description.includes('bright')) {
-    body.style.backgroundImage = "url('./sun.jpg')";
+    body.style.backgroundImage = "('./images/sun.jpg')";
   } else if (description.includes('snow') || description.includes('sleet') || description.includes('flurry')) {
-    body.style.backgroundImage = "url('./snow.jpg')";
+    body.style.backgroundImage = "url('./images/snow.jpg')";
   } else {
     body.style.backgroundColor = '#e0e0e0'; // Default fallback
   }
